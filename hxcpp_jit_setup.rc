@@ -1,0 +1,30 @@
+#include <winver.h>
+#include "hxcpp_jit_setup_version.h"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION    HXCPP_JIT_SETUP_VERSION_MAJOR, HXCPP_JIT_SETUP_VERSION_MINOR, HXCPP_JIT_SETUP_VERSION_PATCH, 0
+ PRODUCTVERSION HXCPP_JIT_SETUP_VERSION_MAJOR, HXCPP_JIT_SETUP_VERSION_MINOR, HXCPP_JIT_SETUP_VERSION_PATCH, 0
+ FILEFLAGSMASK  0x3fL
+ FILEFLAGS      0x0L
+ FILEOS         VOS_NT_WINDOWS32
+ FILETYPE       VFT_APP
+ FILESUBTYPE    VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription",  "hxcpp_JIT setup\0"
+            VALUE "FileVersion",      HXCPP_JIT_SETUP_VERSION_STR "\0"
+            VALUE "InternalName",     "hxcpp_jit_setup\0"
+            VALUE "LegalCopyright",   "Copyright 2026 ThomasDarkson. Licensed under the Apache License 2.0.\0"
+            VALUE "OriginalFilename", "hxcpp_jit_setup.exe\0"
+            VALUE "ProductName",      "hxcpp_JIT\0"
+            VALUE "ProductVersion",   HXCPP_JIT_SETUP_VERSION_STR "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

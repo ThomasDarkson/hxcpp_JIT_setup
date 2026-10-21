@@ -1,0 +1,4 @@
+hxcpp_JIT_setup
+Copyright 2026 ThomasDarkson
+
+This program does not contain Microsoft software. It downloads the Visual C++ Redistributables, Visual Studio, the MSVC build tools, the Windows SDK and ATL from Microsoft, which are licensed by Microsoft under its own terms.
